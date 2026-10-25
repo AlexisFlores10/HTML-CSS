@@ -1,0 +1,184 @@
+body {
+  background-color: rgb(252, 254, 255);
+}
+
+/* Barra Superior (Header Principal) */
+.top-bar {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto 25px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #111111;
+}
+
+/* Contenedor de los iconos de la esquina superior derecha */
+.top-icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon-btn {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+/* Estilo para el avatar del usuario de la esquina */
+.user-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #ddd;
+}
+
+.user-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Reset básico y tipografía */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #111111;
+  padding: 30px;
+}
+
+/* Contenedor principal para centrar el contenido */
+.main-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Cabecera */
+.top-bar {
+  margin-bottom: 25px;
+}
+
+/*nombre de la marca*/
+.header h1 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #111;
+}
+
+/* 1. Banner del Artista */
+.artist-banner {
+  background-color: #b2e3ed;
+  /* Color de fondo de banner */
+  border-radius: 16px;
+  padding: 35px;
+  display: flex;
+  align-items: center gap: 35px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.artist-image img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.artist-info {
+  flex: 1;
+}
+
+.title-with-icon {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.title-with-icon h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #111;
+}
+
+.music-icon {
+  font-size: 1.4rem;
+}
+
+.artist-info p {
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: #222;
+}
+
+/* 2. Botón "Regresar" */
+.back-button {
+  display: inline-block;
+  background-color: #fffefe;
+  border: 1px solid #cccccc;
+  padding: 8px 24px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #333;
+  cursor: pointer;
+  text-decoration: none;
+  margin-bottom: 35px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.2s;
+}
+
+.back-button:hover {
+  background-color: #f8f8f8;
+}
+
+/* 3. Sección de Tarjetas de Fechas */
+.dates-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* tono celeste del banner */
+.date-card {
+  background-color: #b2e3ed;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(72, 190, 249, 0.04);
+}
+
+.calendar-box {
+  background-color: #fefefe;
+  /* Cuadro blanco arriba de la tarjeta */
+  border-radius: 8px;
+  padding: 20px 0;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* datos del calendario */
+.calendar-icon {
+  font-size: 2.5rem;
+}
+
+.date-card span {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #222;
+}
